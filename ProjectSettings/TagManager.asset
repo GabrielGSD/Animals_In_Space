@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Score1
+  - Score2
+  - Cronometro
+  - AnimalText
+  - Alien1
+  - Alien2
+  - Poder1
+  - Poder2
+  - Dog
+  - Cow
+  - Elephant
+  - Lion
+  - Bear
+  - Tiger
+  - Spawn
+  - PowerUp
+  - PowerDown
+  - Bg
+  - Destruir
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
