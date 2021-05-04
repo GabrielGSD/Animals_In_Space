@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2815188641528861838}
   - component: {fileID: 2815188641528861841}
   - component: {fileID: 2815188641528861843}
-  - component: {fileID: 8383932445776432112}
   - component: {fileID: 2815188641528861839}
   - component: {fileID: 2815188641528861840}
   - component: {fileID: 8712421441913630364}
@@ -102,19 +101,6 @@ MonoBehaviour:
   pontuacaoAnimacao: {fileID: 0}
   pontuacaoSprites: []
   _ponto: 1
---- !u!114 &8383932445776432112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2815188641528861842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: add46347bf2cb45438936c96414a224f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  secondsToDestroy: 0
 --- !u!50 &2815188641528861839
 Rigidbody2D:
   serializedVersion: 4

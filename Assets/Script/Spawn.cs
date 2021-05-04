@@ -18,44 +18,61 @@ public class Spawn : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+
     }
-    
+
     private void Update()
     {
-        
-        if(Input.GetKeyDown(KeyCode.Space)){
-            
-        }
-        
+
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     DestroyAnimals();
+        // }
     }
 
-
-// Adicionar um script ao spawnar o animal, esse script irá deletar o animal
-    IEnumerator SpawnObj()
+    public IEnumerator SpawnObj()
     {
         for (int i = 0; i < spawnPoints.Count(); i++)
         {
-            var anim = Random.Range(0,objetos.Length);
-            if(animRepetido.Contains(anim)){
-                while(!animRepetido.Contains(anim)){
-                    anim = Random.Range(0,objetos.Length);
+            var anim = Random.Range(0, objetos.Length);
+            if (animRepetido.Contains(anim))
+            {
+                while (!animRepetido.Contains(anim))
+                {
+                    anim = Random.Range(0, objetos.Length);
                 }
                 animRepetido.Add(anim);
                 Instantiate(objetos[anim], spawnPoints[i].position, spawnPoints[i].rotation);
                 animals.Add(objetos[anim]);
-            }else {
+            }
+            else
+            {
                 animRepetido.Add(anim);
                 Instantiate(objetos[anim], spawnPoints[i].position, spawnPoints[i].rotation);
                 animals.Add(objetos[anim]);
             }
-            if(animRepetido.Count()==objetos.Length){
+            if (animRepetido.Count() == objetos.Length)
+            {
                 animRepetido.Clear();
             }
         }
 
         yield return new WaitForSeconds(9f);
+
+        DestroyAnimals();
+
         StartCoroutine(SpawnObj());
+    }
+
+    public void DestroyAnimals()
+    {
+        Animais[] animais = GameObject.FindObjectsOfType<Animais>();
+        foreach (Animais anim in animais)
+        {
+            anim.Deletar();
+        }
+        animals.Clear();
+
     }
 
 }

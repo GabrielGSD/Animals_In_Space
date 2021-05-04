@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 8909821}
   m_Layer: 0
   m_Name: SpawnBloco (6)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -496,7 +496,7 @@ GameObject:
   - component: {fileID: 122150455}
   m_Layer: 0
   m_Name: SpawnBloco
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 280934519}
   m_Layer: 0
   m_Name: SpawnBloco (8)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 345027300}
   m_Layer: 0
   m_Name: SpawnBloco (7)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 470169179}
   m_Layer: 0
   m_Name: SpawnBloco (10)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 495347714}
   m_Layer: 0
   m_Name: SpawnBloco (13)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1198,7 +1198,7 @@ GameObject:
   - component: {fileID: 517158140}
   m_Layer: 0
   m_Name: SpawnBloco (1)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1329,7 +1329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.301579, y: 0.7350232, z: 2.4018784}
+  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 2.4018784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1061293375}
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 643808765}
   m_Layer: 0
   m_Name: SpawnBloco (11)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1471,7 +1471,7 @@ GameObject:
   - component: {fileID: 753942068}
   m_Layer: 0
   m_Name: SpawnBloco (5)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1779,7 +1779,7 @@ GameObject:
   - component: {fileID: 1059095039}
   m_Layer: 0
   m_Name: SpawnBloco (4)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 1155309295}
   m_Layer: 0
   m_Name: SpawnBloco (16)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1922,7 +1922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350162729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.301579, y: 0.7350232, z: 2.4018784}
+  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 2.4018784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422820045}
@@ -2164,7 +2164,7 @@ GameObject:
   - component: {fileID: 1455777441}
   m_Layer: 0
   m_Name: SpawnBloco (2)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 1462957492}
   m_Layer: 0
   m_Name: SpawnBloco (1)
-  m_TagString: Untagged
+  m_TagString: spawnPower
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2318,6 +2318,8 @@ MonoBehaviour:
   - {fileID: 45361819}
   - {fileID: 119074667}
   tag_sprite: sprite
+  Palavra: {fileID: 0}
+  Cronometro: {fileID: 0}
   shootSound:
   - {fileID: 8300000, guid: f056c6a3fa263404ca3e0d488d67de29, type: 3}
   - {fileID: 8300000, guid: 66df100fe7461794f8112ecb00ad6bb0, type: 3}
@@ -2325,6 +2327,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 23a1541fcaedcc24a996bc345e6bdc30, type: 3}
   - {fileID: 8300000, guid: f9e35a922e0be3f4580f58efd58741dd, type: 3}
   - {fileID: 8300000, guid: 613fe148d04ba8b4ab4614571f085bd6, type: 3}
+  audioObj: {fileID: 0}
   cronometro: 0
   aux: 3
   fim: 0
@@ -2673,7 +2676,7 @@ GameObject:
   - component: {fileID: 1662387832}
   m_Layer: 0
   m_Name: SpawnBloco (12)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2703,7 +2706,7 @@ GameObject:
   - component: {fileID: 1663560779}
   m_Layer: 0
   m_Name: SpawnBloco (3)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2808,7 +2811,7 @@ GameObject:
   - component: {fileID: 1752882278}
   m_Layer: 0
   m_Name: SpawnBloco (2)
-  m_TagString: Untagged
+  m_TagString: spawnPower
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2944,7 +2947,7 @@ GameObject:
   - component: {fileID: 1833315040}
   m_Layer: 0
   m_Name: SpawnBloco (14)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2974,7 +2977,7 @@ GameObject:
   - component: {fileID: 1926599335}
   m_Layer: 0
   m_Name: SpawnBloco (4)
-  m_TagString: Untagged
+  m_TagString: spawnPower
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3004,7 +3007,7 @@ GameObject:
   - component: {fileID: 1971883109}
   m_Layer: 0
   m_Name: SpawnBloco (3)
-  m_TagString: Untagged
+  m_TagString: spawnPower
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3034,7 +3037,7 @@ GameObject:
   - component: {fileID: 1983968805}
   m_Layer: 0
   m_Name: SpawnBloco (17)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3064,7 +3067,7 @@ GameObject:
   - component: {fileID: 2000579769}
   m_Layer: 0
   m_Name: SpawnBloco (9)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3094,7 +3097,7 @@ GameObject:
   - component: {fileID: 2116283322}
   m_Layer: 0
   m_Name: SpawnBloco
-  m_TagString: Untagged
+  m_TagString: spawnPower
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3124,7 +3127,7 @@ GameObject:
   - component: {fileID: 2127427791}
   m_Layer: 0
   m_Name: SpawnBloco (15)
-  m_TagString: Untagged
+  m_TagString: spawnAnimals
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

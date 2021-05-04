@@ -23,6 +23,8 @@ TagManager:
   - PowerDown
   - Bg
   - Destruir
+  - spawnAnimals
+  - spawnPower
   layers:
   - Default
   - TransparentFX
