@@ -20,3 +20,12 @@ O jogo conta com algumas funcionalidades já implementadas, como:
 - [x] Power Up para atrapalhar o jogador adversário, impossibilitando o seu personagem de coletar qualquer coisa durante 10 segundos.
 - [x] Power Up para congelar o personagem do jogador adversário, o impossibilitando de se movimentar durante 10 segundos.
 - [x] Power Up para inverter os controles do jogador adversário durante 10 segundos.
+
+## Ferramentas
+As seguintes ferramentas estão sendo utilizadas no desenvolvimento do jogo:
+- [Unity](https://unity.com/)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/vs/)
+- [Unity Test Runner](https://docs.unity3d.com/2017.4/Documentation/Manual/testing-editortestsrunner.html)
+- [NUnit](https://nunit.org/)
+- [NuGet](https://www.nuget.org/)
+- [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html)
