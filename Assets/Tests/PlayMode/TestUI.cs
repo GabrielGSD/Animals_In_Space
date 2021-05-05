@@ -25,29 +25,5 @@ namespace Tests
             Assert.NotNull(ui.GetComponent<AudioSource>(), "UI has an audio source attached");
             yield return new WaitForSeconds(1);
         }
-
-        [UnityTest]
-        public IEnumerator testPlayPalavra()
-        {
-            // SetNome() -> Setar a palavra q vai falar
-            // PlayPalavra() -> Dar o play no AudioClip da palavra
-            yield return new WaitForSeconds(1);
-        }
-
-        // [UnityTest]
-        // public IEnumerator testEndGame()
-        // {
-        //     ui.aux = 0;
-        //     ui.fim = 3;
-        //     ui.cronometro = 4f;
-        //     yield return new WaitForSeconds(5);
-        //     // int idScene = SceneManager.GetActiveScene().buildIndex;
-        //     // Assert.AreEqual(3, idScene);
-        //     yield return new WaitForSeconds(1);
-
-        //     int idScene = SceneManager.GetActiveScene().buildIndex;
-
-        //     Assert.AreEqual(4, idScene);
-        // }
     }
 }

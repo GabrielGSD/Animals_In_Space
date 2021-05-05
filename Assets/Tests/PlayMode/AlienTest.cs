@@ -15,7 +15,7 @@ namespace Tests
         public IEnumerator setUp()
         {
             SceneManager.LoadScene("Main");
-            yield return new WaitForSeconds(1);
+            yield return new WaitForFixedUpdate();
             alien_1 = GameObject.Find("Alien1");
             alien_2 = GameObject.Find("Alien2");
         }
@@ -25,7 +25,7 @@ namespace Tests
         {
             Alien[] aliens_count = GameObject.FindObjectsOfType<Alien>();
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForFixedUpdate();
 
             Assert.AreEqual(2, aliens_count.Length);
         }
@@ -35,7 +35,7 @@ namespace Tests
         {
             Assert.NotNull(alien_1.GetComponent<CapsuleCollider2D>(), "Alien1 has a Collider attached");
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForFixedUpdate();
 
             Assert.NotNull(alien_2.GetComponent<CapsuleCollider2D>(), "Alien2 has a Collider attached");
         }
@@ -45,7 +45,7 @@ namespace Tests
         {
             Assert.AreEqual(0, alien_1.GetComponent<Alien>().pontos);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForFixedUpdate();
 
             Assert.AreEqual(0, alien_2.GetComponent<Alien>().pontos);
         }
@@ -55,7 +55,7 @@ namespace Tests
         {
             Assert.IsFalse(alien_1.GetComponent<Alien>().temPower);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForFixedUpdate();
 
             Assert.IsFalse(alien_2.GetComponent<Alien>().temPower);
         }

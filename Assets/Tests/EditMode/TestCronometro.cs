@@ -22,14 +22,12 @@ namespace Tests
         [Test]
         public void testTextTimer()
         {
-            // Teste para verificar se existe o text para o cronometro
             Assert.IsTrue(GameObject.FindWithTag("Cronometro"));
         }
 
         [Test]
         public void testTimerStarted()
         {
-            // Teste para verificar se o cronometro começa com 3 
             Assert.AreEqual(expected: 3, actual: cronometro.aux);
         }
     }
