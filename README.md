@@ -59,8 +59,8 @@ git clone https://github.com/GabrielGSD/Animals_In_Space.git
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/GabrielGSD/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51684325?s=400&u=e7dd7f940518806440fe798dee27a5966d6c73af&v=4" width="100px;" alt=""/><br /><sub><b>Alexander Augusto</b></sub></a></td>      
-    <td align="center"><a href="https://github.com/LuciMito"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44007085?v=4" width="100px;" alt=""/><br /><sub><b>Vanessa Swerts</b></sub></a></td>  
+    <td align="center"><a href="https://github.com/GabrielGSD/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51684325?s=400&u=e7dd7f940518806440fe798dee27a5966d6c73af&v=4" width="100px;" alt=""/><br /><sub><b>Gabriel S. Daniel</b></sub></a></td>      
+    <td align="center"><a href="https://github.com/LuciMito"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44007085?v=4" width="100px;" alt=""/><br /><sub><b>Luciano Corrêa</b></sub></a></td>  
   </tr>
 </table>
 
