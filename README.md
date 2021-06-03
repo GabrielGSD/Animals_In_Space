@@ -1,3 +1,5 @@
+[![AnimalsInSpace-Build](https://github.com/GabrielGSD/Animals_In_Space/workflows/AnimalsInSpace/badge.svg)](https://github.com/GabrielGSD/Animals_In_Space/actions)
+
 # Animals_In_Space
 Diretório destinado ao jogo "Animals in Space" que foi desenvolvido e apresentado na 39ª Feira Tecnológica do Inatel - FETIN.
 
