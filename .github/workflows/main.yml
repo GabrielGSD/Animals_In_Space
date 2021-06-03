@@ -1,0 +1,41 @@
+name: AnimalsInSpace
+
+on: push
+
+env:
+  UNITY_LICENSE: ${{secrets.UNITY_LICENSE}}
+
+jobs:
+  testAllModes:
+    name : animals-in-space-test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        testMode:
+          - editmode
+
+    steps:
+      # Checkout
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+      
+      # Cache
+      - uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library
+
+      # Test
+      - name: Tests
+        uses: webbertakken/unity-test-runner@v2
+        with:
+          unityVersion: 2020.3.10f1
+          testMode: ${{ matrix.testMode }}
+
+      #Ouptput
+      - uses: actions/upload-artifact@v1
+        with:
+          name: Build-Test
+          path: artifacts
