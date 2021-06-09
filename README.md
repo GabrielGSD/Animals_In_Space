@@ -1,6 +1,6 @@
 [![AnimalsInSpace-Build](https://github.com/GabrielGSD/Animals_In_Space/workflows/AnimalsInSpace/badge.svg)](https://github.com/GabrielGSD/Animals_In_Space/actions)
 
-# Animals_In_Space
+# Animals In Space
 Diretório destinado ao jogo "Animals in Space" que foi desenvolvido e apresentado na 39ª Feira Tecnológica do Inatel - FETIN.
 
 <p align="center">
@@ -34,6 +34,7 @@ As seguintes ferramentas estão sendo utilizadas no desenvolvimento do jogo:
 - [Unity Test Runner](https://docs.unity3d.com/2017.4/Documentation/Manual/testing-editortestsrunner.html)
 - [NUnit](https://nunit.org/)
 - [NuGet](https://www.nuget.org/)
+- [GitHub Actions](https://github.com/features/actions)
 - [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html)
 
 ## Como utilizar?
