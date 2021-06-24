@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Scripts.Power {
-    public class CriadorPoder : FabricaAleatoria
+namespace Assets.Scripts.Animal
+{
+    public class CriadorAnimal : FabricaAleatoria
     {
-
         [SerializeField]
-        List<GameObject> poderes;
+        List<Animais> animais; 
 
         public override void criaInstancia()
         {
             int pos = definirPosicao();
 
-            if (cont == poderes.Count)
+            if (cont == animais.Count)
                 cont = 0;
-            Instantiate(poderes[cont++], spawnPoints[pos], Quaternion.identity);
+            Instantiate(animais[cont++], spawnPoints[pos], Quaternion.identity);
         }
 
         void Start()

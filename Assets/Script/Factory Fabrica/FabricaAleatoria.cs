@@ -7,8 +7,8 @@ namespace Assets.Scripts
 {
     public abstract class FabricaAleatoria : MonoBehaviour
     {
-        //variaveis de controle para definir a ordem do spawn
         protected List<Vector3> spawnPoints;
+        [SerializeField]
         protected int spawnPointsNum;
         protected bool gerarOrdem = false;
         protected int contOrdemSpawn;

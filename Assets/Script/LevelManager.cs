@@ -11,6 +11,7 @@ namespace Assets.Scripts
 
         void Awake()
         {
+            InvokeRepeating("buscaAnimal", 0f, 1f);
             InvokeRepeating("buscaPoder", 1f, Random.Range(15f, 30f));
         }
 
