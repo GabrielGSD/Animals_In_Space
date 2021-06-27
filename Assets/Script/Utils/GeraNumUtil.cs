@@ -6,7 +6,6 @@ namespace Assets.Scripts.utils
 {
     public static class GeraNumUtil
     {
-
         public static List<int> getUniqueRandomArray(int min, int max, int count) {
             int[] result = new int[count];
             List<int> numbersInOrder = new List<int>();
