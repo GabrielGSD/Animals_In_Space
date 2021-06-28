@@ -24,37 +24,39 @@ public class TelaFinal : MonoBehaviour
     void Start()
     {
         gameSession = FindObjectOfType<GameSession>();
-        if(gameSession.placarAlien1 == gameSession.placarAlien2){
-            Imagem.sprite = sprites[0];
+        if(gameSession.nomeAlien1 != "" || gameSession.nomeAlien2 != "") {
+            if(gameSession.placarAlien1 == gameSession.placarAlien2){
+                Imagem.sprite = sprites[0];
 
-            entryData.entryName = gameSession.nomeAlien1;
-            entryData.entryScore = gameSession.placarAlien1;
+                entryData.entryName = gameSession.nomeAlien1;
+                entryData.entryScore = gameSession.placarAlien1;
 
-            entryData.entryName = gameSession.nomeAlien2;
-            entryData.entryScore = gameSession.placarAlien2;
+                entryData.entryName = gameSession.nomeAlien2;
+                entryData.entryScore = gameSession.placarAlien2;
 
-            scoreboard.AddEntry(entryData);
-        }
-        else if(gameSession.placarAlien1 > gameSession.placarAlien2){
-            Imagem.sprite = sprites[2];
+                scoreboard.AddEntry(entryData);
+            }
+            else if(gameSession.placarAlien1 > gameSession.placarAlien2){
+                Imagem.sprite = sprites[2];
 
-            entryData.entryName = gameSession.nomeAlien1;
-            entryData.entryScore = gameSession.placarAlien1;
-            scoreboard.AddEntry(entryData);
-            
-        }else {
-            Imagem.sprite = sprites[3];
+                entryData.entryName = gameSession.nomeAlien1;
+                entryData.entryScore = gameSession.placarAlien1;
+                scoreboard.AddEntry(entryData);
+                
+            }else {
+                Imagem.sprite = sprites[3];
 
-            entryData.entryName = gameSession.nomeAlien2;
-            entryData.entryScore = gameSession.placarAlien2;
-            scoreboard.AddEntry(entryData);
+                entryData.entryName = gameSession.nomeAlien2;
+                entryData.entryScore = gameSession.placarAlien2;
+                scoreboard.AddEntry(entryData);
+            }
         }
 
         StartCoroutine(loadRanking());
     }
 
     private IEnumerator loadRanking() {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(10f);
         scoreboard.gameObject.SetActive(true);
     }
 
