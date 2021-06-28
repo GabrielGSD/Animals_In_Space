@@ -815,7 +815,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1415,7 +1415,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1439,7 +1439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 7.4018784}
+  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 2.4018784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1061293375}
@@ -2033,7 +2033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350162729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 7.4018784}
+  m_LocalPosition: {x: 3.301579, y: 0.73502344, z: 2.4018784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422820045}
@@ -2971,7 +2971,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5edcc335ca140e3408b5f959b129ecbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nomeAlien1: 
   placarAlien1: 0
+  nomeAlien2: 
   placarAlien2: 0
 --- !u!4 &1758442648
 Transform:

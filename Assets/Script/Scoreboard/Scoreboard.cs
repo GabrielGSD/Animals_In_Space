@@ -26,7 +26,7 @@ namespace Assets.Scripts.Scoreboard {
             AddEntry(testEntryData);
         }
 
-        private void AddEntry(ScoreboardEntryData scoreboardEntryData) {
+        public void AddEntry(ScoreboardEntryData scoreboardEntryData) {
             ScoreboardSaveData savedScores = GetSavedScores();
 
             bool scoreAdded = false;

@@ -47,7 +47,7 @@ namespace Assets.Scripts.Animal
 
         private void shuffle() {
             for(int i = 0; i < animais.Count; i++) {
-                int j = Random.Range(0, animais.Count-1);
+                int j = Random.Range(0, animais.Count);
                 while(!animaisRepetidos.Contains(animais[j])) {
                     animaisRepetidos.Add(animais[j]);
                 } 
