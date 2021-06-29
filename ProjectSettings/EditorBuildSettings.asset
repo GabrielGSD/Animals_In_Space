@@ -21,7 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/TelaVitoria.unity
     guid: 7593d5ce72c12c547bdd1616e94817a2
   - enabled: 1
-    path: Assets/Scenes/testAnimals.unity
+    path: Assets/Scenes/Scoreboard.unity
+    guid: 7a7cf4317caa7fe4d965a4d148e081dc
+  - enabled: 1
+    path: Assets/Scenes/TestAnimals.unity
     guid: 312f56aa764772e4e87f6c1338cebaab
   - enabled: 1
     path: Assets/Scenes/TestPowers.unity

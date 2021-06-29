@@ -17,51 +17,28 @@ public class TelaFinal : MonoBehaviour
 
     GameSession gameSession;
     
-    [SerializeField]
-    Scoreboard scoreboard;
-    ScoreboardEntryData entryData;
     
     void Start()
     {
         gameSession = FindObjectOfType<GameSession>();
+
         if(gameSession.nomeAlien1 != "" || gameSession.nomeAlien2 != "") {
+
             if(gameSession.placarAlien1 == gameSession.placarAlien2){
                 Imagem.sprite = sprites[0];
-
-                entryData.entryName = gameSession.nomeAlien1;
-                entryData.entryScore = gameSession.placarAlien1;
-
-                entryData.entryName = gameSession.nomeAlien2;
-                entryData.entryScore = gameSession.placarAlien2;
-
-                scoreboard.AddEntry(entryData);
             }
             else if(gameSession.placarAlien1 > gameSession.placarAlien2){
                 Imagem.sprite = sprites[2];
-
-                entryData.entryName = gameSession.nomeAlien1;
-                entryData.entryScore = gameSession.placarAlien1;
-                scoreboard.AddEntry(entryData);
-                
             }else {
                 Imagem.sprite = sprites[3];
-
-                entryData.entryName = gameSession.nomeAlien2;
-                entryData.entryScore = gameSession.placarAlien2;
-                scoreboard.AddEntry(entryData);
             }
         }
-
-        StartCoroutine(loadRanking());
     }
 
-    private IEnumerator loadRanking() {
-        yield return new WaitForSeconds(10f);
-        scoreboard.gameObject.SetActive(true);
-    }
-
-    public void CarregarScene()
+    void Update()
     {
-        SceneManager.LoadScene("Menu");
+        if(Input.GetKeyDown(KeyCode.Joystick1Button7) || Input.GetKeyDown(KeyCode.Joystick2Button7)){
+            SceneManager.LoadScene("Scoreboard");
+        }
     }
 }
