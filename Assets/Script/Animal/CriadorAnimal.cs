@@ -43,7 +43,7 @@ namespace Assets.Scripts.Animal
                 }
                 animaisRepetidos.Clear();
             }
-         }
+        }
 
         private void shuffle() {
             for(int i = 0; i < animais.Count; i++) {
