@@ -39,7 +39,7 @@ As seguintes ferramentas estão sendo utilizadas no desenvolvimento do jogo:
 
 ## Como utilizar?
 ### Requisito
-- Unity (Versão 2020.1.0f1)
+- Unity (Versão 2020.3.10f1)
 
 ### Clone
 Clone este repositório na sua máquina local.
